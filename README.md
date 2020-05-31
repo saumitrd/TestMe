@@ -1,2 +1,2 @@
-# NorCalHacksv2
-With new working backend
+# TestMe!
+This is Saumitr Dikhit's and Hrishikesh Ingle's final submission for NorCalHacks.
