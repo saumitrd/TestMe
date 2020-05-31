@@ -1,0 +1,119 @@
+body{
+    padding-top:120px;
+    background-color:rgb(220,220,200);
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#main-header{
+    background-color:lightgreen;
+    color:white;
+    text-align:center;
+    padding:50px 0;
+}
+
+#main-header #name-display{
+    position:absolute;
+    margin-top:0;
+    left:20px;
+
+}
+
+#main-header #title{
+    position:absolute;
+    padding-top:0;
+    left:0px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+#navbar{
+    background-color:cyan;
+    white-space: nowrap;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+    text-align: center;
+}
+
+#navbar li{
+    padding-top:2px;
+    padding-bottom:2px;
+    display:inline;
+}
+
+#navbar a{
+    color:black;
+    padding-right:30px;
+    font-size:20px;
+}
+
+.main-body{
+    padding-top: 10px;
+    margin-top:5px;
+}
+
+.login {
+    text-align: center;
+    padding-top:70px;
+}
+
+.login .login-form{
+    padding: 0% 25%;
+}
+
+.login input{
+    display: block;
+    width:100%;
+    margin-top:10%;
+
+}
+
+.login input[type="text"]{
+    outline:none;
+    border:none;
+    border-bottom:2px solid gray;
+    background-color:transparent;
+    text-align:center;
+    font-size:1.5em;
+}
+
+.login label{
+    font-size:1.4em;
+    color:black;
+}
+
+.login input[type="submit"]{
+    border:none;
+    background-color:rgb(120,255,120);
+    padding:20px;
+    font-size:1.3em;
+    border:5px solid rgb(150,150,150);
+}
+
+.test-choices{
+    padding-top:100px;
+    text-align:center;
+}
+
+.test-choices table{
+    margin:auto:
+    border: 2px solid black;
+}
